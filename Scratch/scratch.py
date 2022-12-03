@@ -14,7 +14,7 @@ df['name']=''
 
 
 # %%
-token = "xqVcW9af3YEoeEvFLDw1UlwNaxjHKNTfNslfC"
+token = ""
 smartsheet_client = smartsheet.Smartsheet(token)
 response = smartsheet_client.Sheets.list_sheets()
 sheets = response.data
